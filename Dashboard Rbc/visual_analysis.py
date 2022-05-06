@@ -5,14 +5,7 @@ from BreastData import dataset
 dataframe = dataset()
 
 def DataAnalysis_section():
-    #st.text('Bellow is a Breast Cancer dataset')
-    #st.dataframe(dataframe.data.head())
-
-    #st.text('Explotary Data Anlysis')
-    #st.text('Removing unneeded feature ')
-    #st.dataframe(dataframe.remove_id_unnamed)
-
-
+   
      col1, col2 = st.columns(2)
 
      with col1:
@@ -25,9 +18,9 @@ def DataAnalysis_section():
           st.dataframe(dataframe.remove_id_unnamed)
 
     
-     st.text('Target Values ')
+     st.text('Diognasis Target values on graph ')
      Target, Count_Target = dataframe.Target
      st.bar_chart(Target)
         
-     st.text("Correlation Graph")
+     st.text("Relationship Between features")
      st.dataframe(dataframe.Corr_graph)   

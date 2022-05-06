@@ -1,6 +1,7 @@
 import streamlit as st
 from visual_analysis import *
 from PredModel import *
+from MeetTeam import *
 
 SIDEBAR_OPTION_PROJECT_WIKI = "Project Wiki"
 SIDEBAR_OPTION_ANALYSIS = "Data Exploration"
@@ -37,21 +38,16 @@ def wiki_section():
 
 def visual_analysis_section():
 
-     #VIZ_SIDEBAR_OPTION_DATANALYSIS = "Data Analysis"
-     #VIZ_SIDEBAR_OPTION_VISUALIZATION = "Visualization"
-     #VIZ_SIDEBAR_OPTIONS = [VIZ_SIDEBAR_OPTION_DATANALYSIS,VIZ_SIDEBAR_OPTION_VISUALIZATION]
-     #VIZ_SIDEBAR_STATUS = st.sidebar.selectbox('Visualisation Section', VIZ_SIDEBAR_OPTIONS)
     DataAnalysis_section()
     
 def Prediction_section():
 
-    st.text("Welcome to the model prediction")
     PredModel()
    
-
 def MeetTeam_section():
-     st.text("Meet the team")
 
+     
+     MeetTeam()
 
 def main():
     st.sidebar.success("Choose an option.")
