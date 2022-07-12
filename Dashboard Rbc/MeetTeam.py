@@ -22,7 +22,7 @@ def MeetTeam():
 
     with col2:
          st.text("CYIMANI Zilfa") 
-         image = Image.open ('')
+         image = Image.open ('E:/PHOTOS/CELINE SANDRINE/679A9973_1.JPG')
          st.image (image, caption='')   
 
 
