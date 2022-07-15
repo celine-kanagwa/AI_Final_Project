@@ -21,6 +21,6 @@ and find out the most effective with respect to confusion matrix, accuracy and p
 
 .To analyze breast cancer data that contains useful information about the customer and their activities on the network 
 
-.To predict if the cancer is benign or malignant 
+.To predict if the cancer is benign or malignant. 
 
 .To deliver insights i managed to extract to my employer using web based dashboard 
